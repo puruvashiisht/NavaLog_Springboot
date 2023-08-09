@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.NavaLog.model.Shipment;
 import com.example.NavaLog.model.ShipmentRepository;
 
-@CrossOrigin(origins = "http://localhost:8081")
+@CrossOrigin(origins = "https://dreamy-llama-f54af7.netlify.app")
 @RestController
 @RequestMapping("/api")
 public class ShipmentController {
