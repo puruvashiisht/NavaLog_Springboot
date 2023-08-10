@@ -27,7 +27,7 @@ import com.example.NavaLog.model.ShipmentRepository;
 import com.example.NavaLog.model.User;
 import com.example.NavaLog.model.UserRepository;
 
-@CrossOrigin(origins = "https://dreamy-llama-f54af7.netlify.app")
+@CrossOrigin(origins = "https://main--dreamy-llama-f54af7.netlify.app")
 @RestController
 @RequestMapping("/api")
 public class RegistrationController {
