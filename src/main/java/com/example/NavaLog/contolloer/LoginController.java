@@ -16,7 +16,8 @@ import com.example.NavaLog.model.UserRepository;
 import com.example.NavaLog.request.UserLoginRequest;
 import com.example.NavaLog.response.MessageReponse;
 
-@CrossOrigin(origins = "https://dreamy-llama-f54af7.netlify.app")
+@CrossOrigin(origins = "https://main--dreamy-llama-f54af7.netlify.app")
+	
 @RestController
 @RequestMapping("/api")
 public class LoginController {
